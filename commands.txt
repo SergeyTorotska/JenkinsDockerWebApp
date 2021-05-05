@@ -1,0 +1,12 @@
+docker build -t sergeytorotska/dockerwebapp .
+
+docker images
+
+docker run -p 49160:8080 sergeytorotska/dockerwebapp
+
+http://localhost:49160
+
+
+
+	
+
